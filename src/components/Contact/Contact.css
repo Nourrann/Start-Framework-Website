@@ -1,0 +1,36 @@
+.contact {
+  min-height: 80vh;
+}
+.contact .headerText {
+  color: #2c3e50;
+}
+.contact .icon {
+  position: relative;
+}
+.contact .icon::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: #2c3e50;
+}
+.contact .icon::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: #2c3e50;
+}
+.form-control:focus {
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+.contact .contactForm .btnn {
+  color: white;
+  background-color: #1abc9c;
+}

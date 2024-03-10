@@ -1,0 +1,28 @@
+.home {
+  background-color: #1abc9c;
+  min-height: 80vh;
+}
+.home img {
+  width: 250px;
+}
+.home .icon {
+  position: relative;
+}
+.home .icon::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: white;
+}
+.home .icon::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: white;
+}

@@ -1,0 +1,49 @@
+.Portfolio {
+  min-height: 80vh;
+}
+.Portfolio .icon {
+  position: relative;
+}
+.Portfolio .icon::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: #2c3e50;
+}
+.Portfolio .icon::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: #2c3e50;
+}
+.portfolioItem {
+  position: relative;
+}
+.portfolioItem .plus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1abc9cc5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.portfolioItem:hover .plus {
+  opacity: 1;
+}
+.portfolioItem .plus .fa-plus {
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+}

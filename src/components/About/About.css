@@ -1,0 +1,28 @@
+.about {
+  background-color: #1abc9c;
+  min-height: 80vh;
+}
+.about .icon {
+  position: relative;
+}
+.about .icon::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: white;
+}
+.about .icon::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 55%;
+  height: 4px;
+  width: 30%;
+  background-color: white;
+}
+.about .container .parag {
+  padding-inline: 40px;
+}
